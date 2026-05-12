@@ -1,7 +1,6 @@
 S = tuple(input())
 ans = ''
 
-# 回文のチェック
 def check(A):
     checker = True
     for i in range(len(A)//2):
